@@ -2,21 +2,223 @@
 <html lang="id">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Aryo Mukti Wicaksono</title>
-<link rel="stylesheet" href="profil_sekolah/style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Aryo Mukti Wicaksono — Portofolio</title>
+<meta name="description" content="Portofolio Aryo Mukti Wicaksono, siswa XI TKJ 2 SMK Negeri 1 Kabupaten Tangerang. Belajar jaringan komputer dan pengembangan web.">
+<meta name="theme-color" content="#f2f1ec">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23f2f1ec'/%3E%3Ctext x='32' y='50' font-family='Arial Narrow, sans-serif' font-size='46' font-weight='700' text-anchor='middle' fill='%230a0a0a'%3EA%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600&display=swap">
+<link rel="stylesheet" href="assets/site.css">
 </head>
 <body>
-<header>
-<h1>Aryo Mukti Wicaksono</h1>
-<p>XI TKJ 2</p>
+
+<svg class="defs" aria-hidden="true" focusable="false">
+  <filter id="boil" x="-15%" y="-15%" width="130%" height="130%">
+    <feTurbulence type="fractalNoise" baseFrequency="0.014 0.05" numOctaves="1" seed="2" result="n">
+      <animate attributeName="seed" values="2;9;15;5" dur="0.36s" calcMode="discrete" repeatCount="indefinite"/>
+    </feTurbulence>
+    <feDisplacementMap in="SourceGraphic" in2="n" scale="3.2" xChannelSelector="R" yChannelSelector="G"/>
+  </filter>
+</svg>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="progress" aria-hidden="true"><i id="bar"></i></div>
+
+<header class="topbar">
+  <a class="mark" href="#top">ARYO<span>.</span></a>
+  <nav class="menu" aria-label="Navigasi utama">
+    <a href="#about">TENTANG</a>
+    <a href="#skill">SKILL</a>
+    <a href="#work">PROYEK</a>
+    <a href="#contact">KONTAK</a>
+  </nav>
 </header>
-<main>
-<section>
-<h2>Proyek</h2>
-<p>Halaman web yang saya buat untuk latihan HTML dan CSS.</p>
-<p><a href="profil_sekolah/">Profil Sekolahku</a></p>
-</section>
+
+<main id="top">
+
+  <section class="hero">
+    <p class="tag" data-reveal>XI TKJ 2 &nbsp;—&nbsp; SMKN 1 KABUPATEN TANGERANG</p>
+
+    <h1 class="mega" id="mega">
+      <span class="boil">ARYO</span>
+      <span class="boil">MUKTI</span>
+      <span class="boil outline">WICAKSONO</span>
+    </h1>
+
+    <div class="sticker boil" aria-hidden="true">
+      <span>WEB</span>
+      <span class="star">★</span>
+      <span>JARINGAN</span>
+    </div>
+
+    <svg class="doodle arrow" viewBox="0 0 120 90" aria-hidden="true">
+      <path d="M8 10 C 40 12, 74 24, 88 56" />
+      <path d="M88 56 l -14 -4 M88 56 l -3 -15" />
+    </svg>
+
+    <div class="hero-foot">
+      <p class="lead" data-reveal style="--d:120ms">
+        Siswa TKJ yang suka bongkar jaringan, nulis HTML dari nol,
+        dan bikin halaman yang bergerak.
+      </p>
+
+      <div class="cta" data-reveal style="--d:220ms">
+        <a class="btn btn-solid" href="#work">LIHAT PROYEK</a>
+        <a class="btn btn-ghost" href="profil_sekolah/">TUGAS SEKOLAH</a>
+      </div>
+    </div>
+
+    <div class="scroll-note" aria-hidden="true">
+      <span>SCROLL</span>
+      <svg viewBox="0 0 14 60"><path d="M7 2 v48 M2 44 l5 8 5-8" /></svg>
+    </div>
+  </section>
+
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>JARINGAN</span>
+      <span>SUBNETTING</span><span>LINUX</span><span>GIT</span><span>PACKET TRACER</span>
+      <span>HTML</span><span>CSS</span><span>JAVASCRIPT</span><span>JARINGAN</span>
+      <span>SUBNETTING</span><span>LINUX</span><span>GIT</span><span>PACKET TRACER</span>
+    </div>
+  </div>
+
+  <section class="sec" id="about">
+    <div class="sec-head" data-reveal>
+      <span class="num" data-rot>01</span>
+      <h2 class="boil">TENTANG</h2>
+    </div>
+
+    <div class="about">
+      <div class="note-card" data-reveal>
+        <span class="tape" aria-hidden="true"></span>
+        <p>
+          Saya Aryo, siswa kelas XI TKJ 2 di SMK Negeri 1 Kabupaten Tangerang.
+          Kenal HTML pertama kali dari tugas sekolah, lalu keterusan sampai
+          bikin halaman ini dari nol — tanpa framework, tanpa template.
+        </p>
+        <p>
+          Di jurusan TKJ saya belajar jaringan: subnetting, crimping kabel,
+          konfigurasi router di Packet Tracer, dan sedikit Linux. Sisi web-nya
+          saya pelajari sendiri lewat latihan dan baca dokumentasi.
+        </p>
+        <p class="sign">— aryo, 2026</p>
+      </div>
+
+      <aside class="id-card" data-reveal style="--d:140ms">
+        <span class="tape tape-2" aria-hidden="true"></span>
+        <p class="id-title">KARTU PELAJAR</p>
+        <dl>
+          <div><dt>NAMA</dt><dd>Aryo Mukti Wicaksono</dd></div>
+          <div><dt>KELAS</dt><dd>XI TKJ 2</dd></div>
+          <div><dt>ABSEN</dt><dd>05</dd></div>
+          <div><dt>SEKOLAH</dt><dd>SMKN 1 Kab. Tangerang</dd></div>
+          <div><dt>JURUSAN</dt><dd>Teknik Komputer &amp; Jaringan</dd></div>
+        </dl>
+        <div class="barcode" aria-hidden="true"></div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="sec" id="skill">
+    <div class="sec-head" data-reveal>
+      <span class="num" data-rot>02</span>
+      <h2 class="boil">SKILL</h2>
+    </div>
+
+    <ul class="skills">
+      <li class="skill-row" data-reveal>
+        <span class="skill-name">HTML</span>
+        <span class="skill-note">struktur, form, tabel</span>
+        <span class="bar"><i style="--v:82%"></i></span>
+      </li>
+      <li class="skill-row" data-reveal style="--d:60ms">
+        <span class="skill-name">CSS</span>
+        <span class="skill-note">layout, animasi, responsif</span>
+        <span class="bar"><i style="--v:74%"></i></span>
+      </li>
+      <li class="skill-row" data-reveal style="--d:120ms">
+        <span class="skill-name">JAVASCRIPT</span>
+        <span class="skill-note">DOM, event, logika dasar</span>
+        <span class="bar"><i style="--v:56%"></i></span>
+      </li>
+      <li class="skill-row" data-reveal style="--d:180ms">
+        <span class="skill-name">JARINGAN</span>
+        <span class="skill-note">IP, subnetting, topologi</span>
+        <span class="bar"><i style="--v:78%"></i></span>
+      </li>
+      <li class="skill-row" data-reveal style="--d:240ms">
+        <span class="skill-name">LINUX</span>
+        <span class="skill-note">terminal, perintah dasar</span>
+        <span class="bar"><i style="--v:48%"></i></span>
+      </li>
+      <li class="skill-row" data-reveal style="--d:300ms">
+        <span class="skill-name">GIT</span>
+        <span class="skill-note">commit, branch, push</span>
+        <span class="bar"><i style="--v:52%"></i></span>
+      </li>
+    </ul>
+  </section>
+
+  <section class="sec" id="work">
+    <div class="sec-head" data-reveal>
+      <span class="num" data-rot>03</span>
+      <h2 class="boil">PROYEK</h2>
+    </div>
+
+    <div class="work">
+      <a class="work-card tilt-l" href="profil_sekolah/" data-reveal>
+        <span class="work-num">01</span>
+        <h3>PROFIL SEKOLAHKU</h3>
+        <p>Tugas HTML pertama: tabel jadwal, form buku tamu, marquee. Sengaja dibikin jadul.</p>
+        <span class="work-tags">HTML / CSS</span>
+        <span class="work-go" aria-hidden="true">LIHAT →</span>
+      </a>
+
+      <a class="work-card tilt-r" href="tools/subnet/" data-reveal style="--d:90ms">
+        <span class="work-num">02</span>
+        <h3>KALKULATOR SUBNET</h3>
+        <p>Hitung network, broadcast, dan rentang host dari IP dan prefix. Dibikin buat latihan TKJ.</p>
+        <span class="work-tags">JAVASCRIPT / TKJ</span>
+        <span class="work-go" aria-hidden="true">LIHAT →</span>
+      </a>
+
+      <div class="work-card tilt-l still" data-reveal style="--d:180ms">
+        <span class="work-num">03</span>
+        <h3>HALAMAN INI</h3>
+        <p>Portofolio tanpa framework: kertas, tinta, dan animasi yang sengaja patah-patah.</p>
+        <span class="work-tags">HTML / CSS / JS</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="sec contact" id="contact">
+    <div class="sec-head" data-reveal>
+      <span class="num" data-rot>04</span>
+      <h2 class="boil">KONTAK</h2>
+    </div>
+
+    <p class="mega-2 boil" data-reveal>AYO<br>NGOBROL</p>
+
+    <p class="contact-note" data-reveal style="--d:100ms">
+      Terbuka buat tanya soal tugas, jaringan, atau sekadar tukar cerita soal kode.
+    </p>
+
+    <div class="contact-links" data-reveal style="--d:180ms">
+      <a class="mail" href="mailto:gotyouhahah8@gmail.com">gotyouhahah8@gmail.com</a>
+      <a class="btn btn-ghost" href="https://github.com/aryomukti" target="_blank" rel="noopener">GITHUB</a>
+    </div>
+  </section>
+
 </main>
+
+<footer class="foot">
+  <p>DIBUAT SENDIRI PAKAI HTML, CSS, DAN JAVASCRIPT.</p>
+  <p>© <span id="year">2026</span> ARYO MUKTI WICAKSONO</p>
+</footer>
+
+<script src="assets/site.js"></script>
 </body>
 </html>
