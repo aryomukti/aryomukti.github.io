@@ -5,3 +5,6 @@ img{max-width:100%;border-radius:.5rem}
 table{border-collapse:collapse;width:100%}
 th,td{border:1px solid #ccc;padding:.5rem}
 button{background:#0b3d91;color:#fff;border:none;padding:.5rem;border-radius:.3rem}
+input{width:100%;padding:.5rem;border:1px solid #ccc;border-radius:.3rem;box-sizing:border-box;margin-bottom:.4rem}
+section{background:#fff;padding:1rem;margin-bottom:1.5rem;border-radius:.6rem}
+main{max-width:720px;margin:2rem auto;padding:0 1rem}
