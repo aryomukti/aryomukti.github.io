@@ -1,16 +1,17 @@
 body{font-family:Georgia,'Times New Roman',serif;background:white;color:black;margin:0;padding:0}
-marquee{background:black;color:white;padding:.4rem}
+marquee{background:black;color:white;padding:.4rem;border-radius:6px;margin:6px}
 header{border-bottom:2px solid gray;padding:1rem}
 h1{font-size:2rem;margin:.3rem 0;color:darkslategray}
 h2{border-bottom:1px solid gray;padding-bottom:.2rem;color:darkslategray}
 h3{margin:.8rem 0 .3rem;color:dimgray}
-img{border:1px solid gray;max-width:100%}
+img{border:1px solid gray;max-width:100%;border-radius:6px}
 table{border-collapse:collapse;width:100%;margin-top:.5rem}
 th,td{border:1px solid gray;padding:.4rem}
 th{background:darkslategray;color:white}
-button{background:whitesmoke;color:black;border:1px solid gray;padding:.4rem .9rem;font-family:inherit;cursor:pointer}
-input{width:100%;padding:.4rem;border:1px solid gray;box-sizing:border-box;margin-bottom:.4rem;font-family:inherit}
+button{background:whitesmoke;color:black;border:1px solid gray;padding:.4rem .9rem;font-family:inherit;cursor:pointer;border-radius:6px}
+button:hover{background:darkslategray;color:white}
+input{width:100%;padding:.4rem;border:1px solid gray;box-sizing:border-box;margin-bottom:.4rem;font-family:inherit;border-radius:6px}
 section{padding:1rem;margin-bottom:1rem}
 footer{border-top:1px solid gray;padding:1rem;font-size:.85rem}
 a{color:darkslategray}
-a:hover{background:darkslategray;color:white}
+a:hover{background:darkslategray;color:white;border-radius:3px}
